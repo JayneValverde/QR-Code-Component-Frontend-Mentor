@@ -16,9 +16,9 @@ body {
 }
 
 .card {
-  /* --rad: 1rem; */
   background-color: var(--white);
   border-radius: 1rem;
+  box-shadow: 4px 4px 70px var(--gray-blue);
   padding: 1rem;
   max-width: 300px;
   margin-inline: auto;
@@ -45,11 +45,8 @@ body {
 }
 
 .attribution {
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: 11px;
   text-align: center;
 }
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
